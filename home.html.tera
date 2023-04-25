@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="content">
+    <img src="/static/logo.png" alt="Logo" class="logo">
+    <h1 class="header">WAVPA</h1>
+    <p class="tagline">A minimal, elegant, and powerful web app template</p>
+</div>
+{% endblock %}

@@ -1,0 +1,8 @@
+<!-- Add billing details related fields -->
+<h3>Billing Details</h3>
+{% for detail in user.billing_details %}
+    <p>{{ detail.key }}: {{ detail.value }}</p>
+{% endfor %}
+
+<!-- Add an update button for billing details -->
+<button id="update-billing-details" disabled>Update Billing Details</button>
